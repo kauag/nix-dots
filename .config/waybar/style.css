@@ -1,0 +1,53 @@
+@import url("colors.css");
+
+* {
+    border: none;
+    border-radius: 0;
+    font-family: monospace;
+    font-size: 15pt;
+    min-height: 0;
+}
+
+window#waybar {
+    opacity: 0.9;
+    background: @background-darker;
+    color: @foreground;
+    border-bottom: 2px solid @background;
+}
+
+#workspaces button {
+    padding: 0 10px;
+    background: @background;
+    color: @foreground;
+}
+
+#clock {
+    padding: 0 4px;
+    background: @background;
+}
+
+#battery {
+    padding: 0 4px;
+    background: @background;
+    color: @green;
+}
+
+#battery.charging {
+    color: @yellow;
+}
+
+#battery.critical:not(.charging) {
+    color: @red;
+}
+
+#pulseaudio {
+    padding: 0 4px;
+    background: @background;
+    color: @cyan;
+}
+
+#network {
+    padding: 0 4px;
+    background: @background;
+    color: @orange;
+}
