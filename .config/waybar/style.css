@@ -22,12 +22,12 @@ window#waybar {
 }
 
 #clock {
-    padding: 0 4px;
+    padding: 0 5px;
     background: @background;
 }
 
 #battery {
-    padding: 0 4px;
+    padding: 0 5px;
     background: @background;
     color: @green;
 }
@@ -41,13 +41,13 @@ window#waybar {
 }
 
 #pulseaudio {
-    padding: 0 4px;
+    padding: 0 5px;
     background: @background;
     color: @cyan;
 }
 
 #network {
-    padding: 0 4px;
+    padding: 0 5px;
     background: @background;
     color: @orange;
 }
